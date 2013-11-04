@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="slg_left_right_margin">12.0dip</dimen>
+    <dimen name="slg_top_bottom_margin_1">14.0dip</dimen>
+    <dimen name="slg_top_bottom_margin_2">12.0dip</dimen>
+    <dimen name="slg_top_bottom_margin_3">8.0dip</dimen>
+    <dimen name="slg_list_font_size_1">18.0sp</dimen>
+    <dimen name="slg_list_font_size_2">16.0sp</dimen>
+    <dimen name="slg_list_font_size_3">14.0sp</dimen>
+    <dimen name="slg_list_font_size_14">11.0sp</dimen>
+    <dimen name="slg_list_font_size_12">12.0sp</dimen>
+    <dimen name="slg_list_font_size_13">13.0sp</dimen>
+    <dimen name="slg_list_line_high">1.0dip</dimen>
+    <dimen name="empty_tip_title_font_size">18.0sp</dimen>
+    <dimen name="blocklist_empty_tip_font_size">16.0sp</dimen>
+    <dimen name="slg_block_sms_detail_number_font_size">22.0sp</dimen>
+    <dimen name="slg_block_sms_detail_content_font_size">18.0sp</dimen>
+    <dimen name="slg_block_sms_shuoming_font_size">14.0sp</dimen>
+    <dimen name="slg_search_lable_font_size">14.0sp</dimen>
+    <dimen name="slg_search_city_font_size">18.0sp</dimen>
+    <dimen name="slg_achievement_detail_level">34.0sp</dimen>
+    <dimen name="slg_achievement_detail_level_unit">16.0sp</dimen>
+    <dimen name="slg_achievement_detail_level_title">26.0sp</dimen>
+    <dimen name="slg_achievement_detail_more_for_next_level">14.0sp</dimen>
+    <dimen name="slg_achievement_detail_trace_title">14.0sp</dimen>
+    <dimen name="slg_achievement_detail_name_font">18.0sp</dimen>
+    <dimen name="slg_achievement_detail_count_font">30.0sp</dimen>
+    <dimen name="slg_achievement_detail_noresult_title_font">26.0sp</dimen>
+    <dimen name="slg_achievement_detail_noresult_sub_title_font">14.0sp</dimen>
+    <dimen name="slg_achievement_detail_noresult_about_font">14.0sp</dimen>
+    <dimen name="slg_achievement_detail_noresult_content_font">14.0sp</dimen>
+    <dimen name="slg_caller_font">22.0sp</dimen>
+    <dimen name="slg_caller_info_font">16.0sp</dimen>
+    <dimen name="slg_callog_op_font">16.0sp</dimen>
+    <dimen name="slg_callog_list_title_font">14.0sp</dimen>
+    <dimen name="slg_callog_list_font">16.0sp</dimen>
+    <dimen name="slg_callog_list_time_font">14.0sp</dimen>
+    <dimen name="slg_list_call_record_title">18.0sp</dimen>
+    <dimen name="slg_weibo_avatar_wall_contact">16.0sp</dimen>
+    <dimen name="one_text_size">22.0dip</dimen>
+    <dimen name="general_describe_text_size">18.0dip</dimen>
+    <dimen name="standard_info_text_size">18.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

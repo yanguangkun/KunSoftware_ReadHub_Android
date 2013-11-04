@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    tools:context=".AddBookActivity" > 
+    <LinearLayout android:orientation="vertical" 
+        
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:layout_alignParentTop="true" 
+        android:layout_alignParentRight="true" 
+        android:layout_marginTop="3.0dip" 
+        android:layout_marginRight="5.0dip"  
+        android:layout_marginLeft="5.0dip"
+        android:layout_centerHorizontal="true">
+      <EditText
+        android:id="@+id/bookName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:focusable="true"  
+        android:focusableInTouchMode="true"
+        android:hint="@string/book_name_str"  /> 
+      <EditText
+        android:id="@+id/author"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:focusable="true"  
+        android:focusableInTouchMode="true"
+        android:hint="@string/author_str"  />
+      <EditText
+        android:id="@+id/pageNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:focusable="true"  
+        android:focusableInTouchMode="true"
+        android:inputType="number"
+        android:hint="@string/page_number_str"  />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/linToolBar" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+    <Button
+        android:id="@+id/saveBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center"   
+        android:text="@string/save_str" /> 
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_gravity="center"  
+        android:text="@string/back_str" />
+</LinearLayout>
+    </LinearLayout>  
+    
+</RelativeLayout>

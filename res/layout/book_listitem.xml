@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+        android:layout_width="fill_parent" 
+        xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:orientation="vertical"
+        android:layout_height="wrap_content" 
+        android:id="@+id/MyListItem" 
+        android:paddingBottom="3dip" 
+        android:paddingLeft="10dip"> 
+        <TextView  
+        android:id="@+id/id" android:layout_width="fill_parent" 
+                android:layout_height="fill_parent" android:visibility="gone"/>  
+        
+       <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" 
+           android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/slg_list_font_size_1" 
+                android:textColor="@color/slg_list_font_color_deep" 
+                android:id="@+id/bookName" 
+                android:layout_width="fill_parent" 
+                android:layout_height="fill_parent" 
+                android:singleLine="true" /> 
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/slg_list_font_size_3" 
+                    android:textColor="@color/slg_list_font_color_light" 
+                    android:id="@+id/bookMarkerInfo" 
+                    android:layout_width="wrap_content" 
+                    android:layout_height="fill_parent" 
+                    android:singleLine="true" 
+                    android:paddingLeft="15sp"
+                    android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/slg_list_font_size_3" 
+	               android:textColor="@color/slg_list_font_color_light" 
+	               android:gravity="right|center" 
+	               android:id="@+id/bookMarkerRet" 
+	               android:layout_width="wrap_content" 
+	               android:layout_height="fill_parent" 
+	               android:singleLine="true" 
+	               android:paddingRight="15sp"
+	               android:layout_weight="1.0" />
+        </LinearLayout>
+</LinearLayout>

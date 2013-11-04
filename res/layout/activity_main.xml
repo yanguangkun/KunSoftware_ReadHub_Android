@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+  
+    <ListView android:id="@+id/listView" 
+        android:background="@color/slg_list_backcolor" 
+        
+        android:fadingEdge="none" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:drawSelectorOnTop="false" 
+        android:divider="@drawable/shape_line" 
+        android:dividerHeight="1.0dip" />
+    
+ <Button
+        android:id="@+id/addBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" 
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/add_str" />
+</RelativeLayout>
