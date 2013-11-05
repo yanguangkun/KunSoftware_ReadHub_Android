@@ -89,6 +89,10 @@ public class BookMarkerActivity extends Activity {
         		return ;
         	}
         	   
+        	BooksEntity book = mgr.getBook(bookId);
+        	book.setUpdateTime(DateFormatUtils.format(new Date(), "yyyy-MM-dd HH:mm:ss"));
+        	mgr.updateBook(book);
+        	
         	BookMarkerEntity bookMarker = new BookMarkerEntity();
         	bookMarker.setBookId(NumberUtils.toInt(bookId));
         	bookMarker.setReadPageNumber(NumberUtils.toInt(readPageNumber.getText().toString())); 

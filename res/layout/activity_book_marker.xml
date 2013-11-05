@@ -37,7 +37,12 @@
         android:inputType="number"
         android:hint="@string/book_page_number_str"
         android:ems="10" />
-<LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/linToolBar" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+<LinearLayout android:gravity="center|center_horizontal|center_vertical"
+    android:layout_gravity="center" 
+    android:orientation="horizontal" 
+    android:id="@+id/linToolBar" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" >
     <Button
         android:id="@+id/saveBook"
         android:layout_width="wrap_content"
